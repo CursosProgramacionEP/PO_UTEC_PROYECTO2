@@ -1,0 +1,21 @@
+# Compilacion
+cmake-build-*/
+build/
+*.o
+*.obj
+*.exe
+*.out
+a.out
+
+# Ejecutables de las herramientas
+pgm2bmp
+ejemplo_uso
+
+# Salidas generadas
+*.bmp
+retrato_negativo.pgm
+salida*.pgm
+
+# Sistema
+.DS_Store
+.idea/
