@@ -13,6 +13,7 @@
 
 ## 1. Indicaciones generales
 
+- **Modalidad:** grupos de **3 estudiantes**. Un grupo que entregue con **menos de 3 integrantes pierde 2 puntos** de la nota final, sin excepciones, y **mantiene el alcance completo**: debe entregar igualmente las tres áreas técnicas de la sección 4.
 - **Paradigma obligatorio:** Programación Orientada a Objetos en C++ (`.h` y `.cpp` por clase). **No se aceptan soluciones procedurales** ni clases que sean solo contenedores de funciones sueltas.
 - **Restricción de librerías:** prohibido el uso de librerías de procesamiento de imágenes (OpenCV, CImg, stb_image y similares). El cómputo central se programa desde cero. Sí está permitido `std::vector` y el resto de la STL vista en clase.
 - **Material base:** este repositorio entrega el módulo `pgm_io`, tres imágenes de prueba y una herramienta de conversión.
@@ -75,6 +76,8 @@ Cada grupo graba y sube un video a YouTube (modo *No listado* o *Público*). El 
 
 En la sesión de laboratorio de la semana 15 habrá además una **ronda oral de 5 minutos por grupo**, con preguntas individuales sobre el código entregado.
 
+> **La nota de sustentación es individual (8 de los 20 puntos):** dos integrantes del mismo grupo pueden obtener calificaciones distintas según su propio desempeño en el video y en la ronda de preguntas.
+
 ## 6. Entregables en Gradescope (vía Canvas)
 
 1. **Informe técnico en PDF:** carátula con integrantes y **enlace al video**, diagrama UML de clases y relaciones, justificación del manejo de bordes, capturas de las imágenes antes y después de cada filtro, casos de prueba, **declaración ética del uso de fuentes e IA**, conclusiones y recomendaciones.
@@ -84,8 +87,10 @@ En la sesión de laboratorio de la semana 15 habrá además una **ronda oral de 
 
 | Criterio | Excelente | Adecuado | Mínimo | Insuficiente | Pts |
 |---|---|---|---|---|---|
-| **1. Algoritmo y diseño POO** *(grupal)* | Diseño de clases correcto y fiel a la implementación: jerarquía bien abstraída, relaciones justificadas y polimorfismo aplicado. **(6)** | Errores menores de diseño que no afectan significativamente el resultado. **(5)** | Errores que afectan parcialmente el resultado, o polimorfismo simulado con condicionales. **(3)** | Múltiples errores, o solución procedural encubierta en clases. **(1)** | /6 |
+| **1. Algoritmo y diseño POO** *(grupal)* | Diseño de clases correcto y fiel a la implementación: jerarquía bien abstraída, relaciones justificadas y polimorfismo aplicado. **(5)** | Errores menores de diseño que no afectan significativamente el resultado. **(4)** | Errores que afectan parcialmente el resultado, o polimorfismo simulado con condicionales. **(2)** | Múltiples errores, o solución procedural encubierta en clases. **(1)** | /5 |
 | **2. Código C++** *(individual)* | Compila sin advertencias, ordenado y fiel al diseño. Regla de tres completa, operadores saturados y sin fugas de memoria. **(4)** | Errores menores que no alteran el flujo principal. **(3)** | Errores que afectan parcialmente el resultado, o presenta fugas de memoria. **(2)** | Múltiples errores graves o no compila. **(1)** | /4 |
-| **3. Presentación escrita** *(grupal)* | Informe ordenado y completo: UML, pruebas, capturas antes/después, enlace al video y declaración de fuentes e IA. **(4)** | Contiene las secciones principales pero sin énfasis en pruebas ni conclusiones. **(3)** | Contiene menos de la mitad de las secciones, incluyendo conclusiones. **(2)** | Informe deficiente, sin conclusiones o no entregado. **(1)** | /4 |
-| **4. Presentación oral** *(individual)* | Presenta su área adecuadamente y responde las preguntas del profesor de forma lógica y coherente. **(6)** | Presenta adecuadamente pero no responde todas las preguntas con coherencia. **(3)** | No presenta adecuadamente pero responde las preguntas con coherencia. **(2)** | No presenta adecuadamente ni responde, o no se presenta. **(0)** | /6 |
+| **3. Presentación escrita** *(grupal)* | Informe ordenado y completo: UML, pruebas, capturas antes/después, enlace al video y declaración de fuentes e IA. **(3)** | Contiene las secciones principales pero sin énfasis en pruebas ni conclusiones. **(2)** | Contiene menos de la mitad de las secciones, incluyendo conclusiones. **(1)** | Informe deficiente, sin conclusiones o no entregado. **(0)** | /3 |
+| **4. Sustentación (video + ronda de preguntas)** *(individual)* | Presenta su área adecuadamente y responde las preguntas del profesor de forma lógica y coherente. **(8)** | Presenta adecuadamente pero no responde todas las preguntas con coherencia. **(4)** | No presenta adecuadamente pero responde las preguntas con coherencia. **(2)** | No presenta adecuadamente ni responde, o no se presenta. **(0)** | /8 |
 | | | | | **NOTA FINAL** | **/20** |
+
+**Penalidad:** grupo con menos de 3 integrantes, −2 puntos sobre la nota final.
